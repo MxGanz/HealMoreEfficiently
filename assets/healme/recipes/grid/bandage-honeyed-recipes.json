@@ -1,0 +1,80 @@
+[
+{
+	"ingredientPattern": "H,B",
+	"width": 1,
+	"height": 2,
+	"ingredients": {
+		"H": {
+			"type": "block",
+			"code": "game:bowl-fired"
+		},
+		"B": {
+			"type": "item",
+			"code": "game:bandage-clean"
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:honeyportion" },
+			"requiresLitres": 0.2
+		}
+	},
+	"shapeless": "true",
+	"output": {
+		"type": "item",
+		"code": "bandage-honeyed"
+	}
+},
+{
+	"ingredientPattern": "H,B",
+	"width": 1,
+	"height": 2,
+	"ingredients": {
+		"H": {
+			"type": "block",
+			"code": "game:woodbucket"
+		},
+		"B": {
+			"type": "item",
+			"code": "game:bandage-clean"
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:honeyportion" },
+			"requiresLitres": 0.2
+		}
+	},
+	"shapeless": "true",
+	"output": {
+		"type": "item",
+		"code": "bandage-honeyed"
+	}
+},
+{
+	"ingredientPattern": "H,B",
+	"width": 1,
+	"height": 2,
+	"ingredients": {
+		"H": {
+			"type": "block",
+			"code": "game:jug-*-fired"
+		},
+		"B": {
+			"type": "item",
+			"code": "game:bandage-clean"
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:honeyportion" },
+			"requiresLitres": 0.2
+		}
+	},
+	"shapeless": "true",
+	"output": {
+		"type": "item",
+		"code": "bandage-honeyed"
+	}
+}
+]

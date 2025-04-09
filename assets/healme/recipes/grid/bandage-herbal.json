@@ -1,0 +1,39 @@
+[
+{
+	"ingredientPattern": "SNS,_H_,_B_",
+	"width": 3,
+	"height": 3,
+	"ingredients": {
+		"N": {
+			"type": "block",
+			"code": "game:bowl-fired"
+		},
+		"H": {
+			"type": "item",
+			"code": "herbal-tincture"
+		},
+		"S": {
+			"type": "item",
+			"code": "game:powder-sulfur",
+			"quantity": 3
+		},
+		"B": {
+			"type": "item",
+			"code": "game:bandage-clean"
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:honeyportion" },
+			"requiresLitres": 0.2
+		}
+	},
+	"shapeless": "false",
+	"output": {
+		"type": "item",
+		"code": "bandage-herbal",
+		"quantity": 4
+	}
+
+}
+]

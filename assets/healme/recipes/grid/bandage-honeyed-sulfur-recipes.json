@@ -1,0 +1,98 @@
+[
+{
+	"ingredientPattern": "H,S,B",
+	"width": 1,
+	"height": 3,
+	"ingredients": {
+		"H": {
+			"type": "block",
+			"code": "game:bowl-fired"
+		},
+		"S": {
+			"type": "item",
+			"code": "game:powder-sulfur",
+			"quantity": 2
+		},
+		"B": {
+			"type": "item",
+			"code": "game:bandage-clean"
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:honeyportion" },
+			"requiresLitres": 0.2
+		}
+	},
+	"shapeless": "true",
+	"output": {
+		"type": "item",
+		"code": "bandage-honey-sulfur",
+		"quantity": 2
+	}
+},
+{
+	"ingredientPattern": "H,S,B",
+	"width": 1,
+	"height": 3,
+	"ingredients": {
+		"H": {
+			"type": "block",
+			"code": "game:woodbucket"
+		},
+		"S": {
+			"type": "item",
+			"code": "game:powder-sulfur",
+			"quantity": 2
+		},
+		"B": {
+			"type": "item",
+			"code": "game:bandage-clean"
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:honeyportion" },
+			"requiresLitres": 0.2
+		}
+	},
+	"shapeless": "true",
+	"output": {
+		"type": "item",
+		"code": "bandage-honey-sulfur",
+		"quantity": 2
+	}
+},
+{
+	"ingredientPattern": "H,S,B",
+	"width": 1,
+	"height": 3,
+	"ingredients": {
+		"H": {
+			"type": "block",
+			"code": "game:jug-*-fired"
+		},
+		"S": {
+			"type": "item",
+			"code": "game:powder-sulfur",
+			"quantity": 2
+		},
+		"B": {
+			"type": "item",
+			"code": "game:bandage-clean"
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:honeyportion" },
+			"requiresLitres": 0.2
+		}
+	},
+	"shapeless": "true",
+	"output": {
+		"type": "item",
+		"code": "bandage-honey-sulfur",
+		"quantity": 2
+	}
+}
+]

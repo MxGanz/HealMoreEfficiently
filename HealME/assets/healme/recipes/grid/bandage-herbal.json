@@ -1,6 +1,6 @@
 [
 {
-	"ingredientPattern": "SNS,_H_,_B_",
+	"ingredientPattern": "SNM,_H_,_B_",
 	"width": 3,
 	"height": 3,
 	"ingredients": {
@@ -17,15 +17,25 @@
 			"code": "game:powder-sulfur",
 			"quantity": 3
 		},
+		"w" : {
+			"type": "item",
+			"code": "game:beeswax"
+		},
 		"B": {
 			"type": "item",
 			"code": "game:bandage-clean"
+		},
+		"M" : {
+			"type": "item",
+			"code": "game:bonemeal",
+			"quantity": 3
+
 		}
 	},
 	"attributes": {
 		"liquidContainerProps": {
 			"requiresContent": { "type": "item", "code": "game:honeyportion" },
-			"requiresLitres": 0.2
+			"requiresLitres": 1.0
 		}
 	},
 	"shapeless": "false",
@@ -34,6 +44,5 @@
 		"code": "bandage-herbal",
 		"quantity": 4
 	}
-
 }
 ]

@@ -1,0 +1,142 @@
+[
+{
+	"ingredientPattern": "H,A",
+	"width": 1,
+	"height": 2,
+	"ingredients": {
+		"A": {
+			"type": "block",
+			"code": "game:bowl-fired"
+		},
+		"H": {
+			"type": "block",
+			"code": "game:flower-*-free",
+			"quantity": 4
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:alcoholportion" },
+			"requiresLitres": 0.25
+		}
+	},
+	"shapeless": true,
+	"output": {
+		"type": "item",
+		"code": "healme:herbal-tincture",
+		"quantity": 1
+	}
+},
+{
+	"ingredientPattern": "H,A",
+	"width": 1,
+	"height": 2,
+	"ingredients": {
+		"A": {
+			"type": "block",
+			"code": "game:bowl-fired"
+		},
+		"H": {
+			"type": "block",
+			"code": "game:mushroom-reishi-normal-north",
+			"quantity": 1
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:alcoholportion" },
+			"requiresLitres": 0.25
+		}
+	},
+	"shapeless": true,
+	"output": {
+		"type": "item",
+		"code": "healme:herbal-tincture",
+		"quantity": 1
+	}
+},
+{
+	"ingredientPattern": "H,A",
+	"width": 1,
+	"height": 2,
+	"ingredients": {
+		"A": {
+			"type": "block",
+			"code": "game:bowl-fired"
+		},
+		"H": {
+			"type": "block",
+			"code": "game:mushroom-flyagaric-normal",
+			"quantity": 1
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:alcoholportion" },
+			"requiresLitres": 0.25
+		}
+	},
+	"shapeless": true,
+	"output": {
+		"type": "item",
+		"code": "healme:herbal-tincture",
+		"quantity": 1
+	}
+},
+{
+	"ingredientPattern": "H,A",
+	"width": 1,
+	"height": 2,
+	"ingredients": {
+		"A": {
+			"type": "block",
+			"code": "game:bowl-fired"
+		},
+		"H": {
+			"type": "block",
+			"code": "game:mushroom-redwinecap-normal",
+			"quantity": 1
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:alcoholportion" },
+			"requiresLitres": 0.25
+		}
+	},
+	"shapeless": true,
+	"output": {
+		"type": "item",
+		"code": "healme:herbal-tincture",
+		"quantity": 1
+	}
+},
+{
+	"ingredientPattern": "H,A",
+	"width": 1,
+	"height": 2,
+	"ingredients": {
+		"A": {
+			"type": "block",
+			"code": "game:bowl-fired"
+		},
+		"H": {
+			"type": "item",
+			"code": "game:pickledvegetable-*",
+			"quantity": 1
+		}
+	},
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:alcoholportion" },
+			"requiresLitres": 0.25
+		}
+	},
+	"shapeless": true,
+	"output": {
+		"type": "item",
+		"code": "healme:herbal-tincture",
+		"quantity": 2
+	}
+}
+]

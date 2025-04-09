@@ -1,7 +1,7 @@
 {
     "code": "healme:herbal-tincture",
     
-	"shape": { "base": "shapes/bandage" },
+	"shape": { "base": "shapes/herbal-tincture" },
 	"texture" : {
 		"base" : "item/herbal-tincture"
 	},

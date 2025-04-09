@@ -1,0 +1,56 @@
+[
+{
+	"ingredientPattern": "GG,GG",
+	"width": 2,
+	"height": 2,
+	"ingredients": {
+		"G": {
+			"type": "item",
+			"code": "game:cattailtops"
+		}
+		
+	},
+	"shapeless": false,
+	"output": {
+		"type": "item",
+		"code": "game:flaxtwine",
+		"quantity": 1
+	}
+},
+{
+	"ingredientPattern": "GG,GG",
+	"width": 2,
+	"height": 2,
+	"ingredients": {
+		"G": {
+			"type": "item",
+			"code": "game:papyrustops"
+		}
+		
+	},
+	"shapeless": false,
+	"output": {
+		"type": "item",
+		"code": "game:flaxtwine",
+		"quantity": 1
+	}
+},
+{
+	"ingredientPattern": "GG,GG",
+	"width": 2,
+	"height": 2,
+	"ingredients": {
+		"G": {
+			"type": "item",
+			"code": "game:thatch"
+		}
+		
+	},
+	"shapeless": false,
+	"output": {
+		"type": "item",
+		"code": "game:flaxtwine",
+		"quantity": 1
+	}
+}
+]
